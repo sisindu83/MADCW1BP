@@ -14,6 +14,7 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text('News App'),
       actions: [
+        
         Row(
           children: [
             // Category btn icon
